@@ -1,0 +1,38 @@
+/*
+BASIC ANIMATION
+ we will use transform and transition properties
+ transform syntax
+ element {
+    transform:value
+ }
+ transition syntax
+ element {
+    transition:value
+ }
+
+ transform- modifies the special position of an element e.g scale and angle but ainr user friendly since they are instantaneous
+ to create the illusion of motion we need to control the speed of this effects to do this we use transition property in conjuction with the transform property
+ e.g transform syntax
+ h1 {
+    transform:rotate(0deg);
+ }
+ h1:hover{
+    transfoem:rotate 20deg)
+ } 
+ the above is instant but to slow down we use transition
+  e.g transition syntax
+ h1 {
+    transition:2s;
+ }
+*/
+
+.a {
+   margin: 30px;
+   transform: skewX(20deg);
+   transition: 5s;
+}
+.b {
+   margin: 100px;
+   transform: rotate(20deg);
+   transition: 10s;
+}

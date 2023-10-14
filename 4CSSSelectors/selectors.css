@@ -1,0 +1,32 @@
+/*
+element or type selector
+index.html
+<p>Once upon a time</p>
+index.css
+p{
+    color:blue;
+}
+id selectors
+index.html
+<span id= 'latest'>News</Span>
+index.css
+#latest {
+    color: blue
+}
+class attribute
+uses 
+.navigation {
+    margin: 20px;
+}
+attribute selectors
+has a few syntax variations
+e.g
+<img src='first.jpg' alt= 'first image'>
+img = name of tag
+src and alt = name of attributes
+first.jpg = value of img tag
+style.css
+a[href*='meta']{
+    
+}
+*/

@@ -1,0 +1,16 @@
+*{
+    list-style: none;
+}
+body {
+    color:#333333;
+    background-color: #EE99;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* for the sibling selector you always use  ~(tilder) 
+*/
+div ~ ul {
+    background-color: #EDEFEE;
+    color: #492;
+    box-shadow: inset 1px 1px 3px #333333;
+    padding: 20px;
+}
